@@ -1,6 +1,6 @@
-import './App.css';
-import routes from './routes.js'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import "@/App.css";
+import routes from "@/routes.js";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (

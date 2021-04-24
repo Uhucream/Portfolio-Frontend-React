@@ -1,11 +1,11 @@
-import TopPage from './components/pages/TopPage.js'
+import TopPage from "@/components/pages/TopPage.js";
 
 const routes = [
   {
     path: "/",
     exact: true,
-    children: <TopPage />
+    children: <TopPage />,
   },
 ];
 
-export default routes
+export default routes;
