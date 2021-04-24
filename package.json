@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,9 +17,9 @@
   },
   "scripts": {
     "clean": "$(yarn bin)/rimraf build/* public/*",
-    "dev": "env HOST=0.0.0.0 PORT=8000 CHOKIDAR_USEPOLLING=true react-scripts start",
-    "build": "yarn clean && mkdir -p public/ && cp -pr src/assets/* public/ && react-scripts build",
-    "test": "react-scripts test"
+    "dev": "env HOST=0.0.0.0 PORT=8000 CHOKIDAR_USEPOLLING=true craco start",
+    "build": "yarn clean && mkdir -p public/ && cp -pr src/assets/* public/ && craco build",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [
