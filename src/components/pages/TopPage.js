@@ -1,7 +1,10 @@
 import React from 'react'
+import TopPageCarousel from '@/components/modules/TopPage/Carousel'
 
-export default class TopPage extends React.Component {
-  render () {
-    return <h1>TopPage</h1>;
-  }
+export default function TopPage() {
+  return (
+    <>
+      <TopPageCarousel/>
+    </>
+  )
 }
