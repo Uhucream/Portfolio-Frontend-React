@@ -44,9 +44,9 @@ function CarouselItem (props) {
   return (
     <Card>
       <CardMedia
-        component='img'
+        component="img"
         src={props.src}
-        style={{ height: 400 }}
+        style={{ marginTop: 64, height: 400 }}
       />
     </Card>
   )
