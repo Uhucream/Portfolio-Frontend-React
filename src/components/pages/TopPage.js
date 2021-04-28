@@ -1,7 +1,12 @@
 import React from 'react'
+import TopPageCarousel from '@/components/modules/TopPage/Carousel'
+import TopPageCards from '@/components/modules/TopPage/TopPageCards'
 
-export default class TopPage extends React.Component {
-  render () {
-    return <h1>TopPage</h1>;
-  }
+export default function TopPage() {
+  return (
+    <>
+      <TopPageCarousel/>
+      <TopPageCards/>
+    </>
+  )
 }
