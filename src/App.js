@@ -105,7 +105,7 @@ function Bar() {
               rel="noreferrer noopener"
               target="_blank"
             >
-              <GitHub />
+              <GitHub fontSize="small" style={{ marginBottom: 2 }} />
             </a>
             <a
               style={{
